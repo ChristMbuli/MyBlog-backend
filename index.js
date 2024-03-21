@@ -13,7 +13,7 @@ const app = express();
 //Middleware pour gérer la politique CORS
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://myblog-frontend-r27k.onrender.com/",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type"],
     httpOnly: false,
