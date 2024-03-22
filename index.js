@@ -13,7 +13,7 @@ const app = express();
 //Middleware pour gérer la politique CORS
 app.use(
   cors({
-    origin: "https://myblog-frontend-r27k.onrender.com/",
+    origin: "https://incomparable-snickerdoodle-ae92c4.netlify.app/",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type"],
     httpOnly: false,
