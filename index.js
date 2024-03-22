@@ -13,7 +13,7 @@ const app = express();
 //Middleware pour gérer la politique CORS
 app.use(
   cors({
-    origin: "https://incomparable-snickerdoodle-ae92c4.netlify.app/",
+    origin: "https://my-blog-frontend-alpha.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type"],
     httpOnly: false,
